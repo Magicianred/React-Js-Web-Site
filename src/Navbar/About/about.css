@@ -1,0 +1,55 @@
+.about
+{
+    width: 100%;
+    height: 550px;
+    background-color: #F5F5F5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.about-bg{
+    height: 100%;
+    width: 70%;
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.alan{
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    margin-top: 75px;
+}
+.resim
+{
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.bilgi{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.foto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

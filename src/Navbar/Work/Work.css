@@ -1,0 +1,39 @@
+.work{
+    width: 100%;
+    background-color: #DC143C;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    flex-direction: column;
+}
+.works{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intro{
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    margin: 20px 100px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.intro h3{
+    transition: .2s ease-in-out;
+}
+
+.intro h3:hover{
+    transform: rotate(-35deg);
+}
+.intro:hover{
+    background-color: cadetblue;
+    color: white;
+}
